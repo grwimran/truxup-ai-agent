@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:api": "tsx src/api/server.ts"
-  },
+  "test": "echo \"Error: no test specified\"",
+  "dev:api": "tsx src/api/server.ts",
+  "build": "tsc",
+  "start": "node dist/api/server.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
